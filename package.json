@@ -1,0 +1,16 @@
+{
+  "name": "exchange-bot",
+  "version": "1.0.0",
+  "description": "Exchange Bot for Discord",
+  "main": "bot.js",
+  "author": "Cárcamo",
+  "license": "MIT",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.6.4",
+    "dotenv": "^8.2.0",
+    "winston": "^3.3.3"
+  }
+}
