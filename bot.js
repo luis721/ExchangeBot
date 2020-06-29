@@ -18,7 +18,7 @@ client.on('message', msg => {
     // Only messages with the prefix and from humans.
     if (!msg.content.startsWith(prefix) || msg.author.bot) return;
 
-    // We check the message content and looks for the word "ping", so we can have the bot respond "pong"
+    // This command allows people to upvote it, so they are listed for exchange
     if (msg.content === '+exchange') {
         msg.channel.send('Upvote to participte in movie exchange.')
             .then(sentMessage => {
@@ -42,6 +42,9 @@ client.on('message', msg => {
                     });
 
             });
+    } else if (msg.content === '+results'){
+        // show results for exchange
+        
     }
 
 });
