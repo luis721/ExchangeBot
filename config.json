@@ -1,3 +1,4 @@
 {
-	"prefix": "+"
+	"prefix": "+",
+	"database": "./db/test.db"
 }
